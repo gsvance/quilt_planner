@@ -1,0 +1,33 @@
+
+* create a pop-up system to enable new features like grid size prompting or fabric reports
+* report on total fabric use, number of triangles of each color
+report of total quilt dimensions in inches 
+encapsulate graphwin to return a position when getmouse
+prompt for quilt grid dimensions somewhere
+
+* saving and loading designs, probably to a json or other text file
+saving designs as image files, maybe using pillow
+
+visual indication of current selection for mouse mode
+
+expanded color palette with light grey, new background color, etc.
+implement a full-on rgb color picker of sorts
+
+bundle graphics.py with the code if sending to others
+
+add a reset button, equivalent to quit and restart
+add undo/redo buttons and a history data structure
+
+fix the rotate button class that was supposed to have a circular arrow
+make it so I can set colors on text buttons, like making quit have red fill
+
+implement a 2d binary search through blocks when Quilt reacts to mouse click
+
+encapsulate polygon to further hide points and graphics 
+encapsulate color schemes as line,fill pairs
+
+maybe try replacing enums with subclasses of a class
+maybe try making mouse a superclass with a click and subclasses for each possible setting
+some sort of mutual 'section/sector/div' superclass for controls and quilt??
+
+rather than having Controls and Quilt as components of Interface, let Quilt be a component of Controls and promote Controls to become one with Interface
